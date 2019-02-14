@@ -29,6 +29,7 @@ public class TestWeiXinToken {
 
     @RequestMapping(value = "/confirm1", method = RequestMethod.GET)
     public String confirm(HttpServletRequest request, HttpServletResponse response) {
+        System.out.println("sdsdf");
         String signature = request.getParameter("signature");
         String timestamp = request.getParameter("timestamp");
         String nonce = request.getParameter("nonce");
