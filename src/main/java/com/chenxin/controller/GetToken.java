@@ -1,31 +1,19 @@
-package com.chenxin.application;
+package com.chenxin.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.sun.org.apache.bcel.internal.generic.GETFIELD;
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
+import org.springframework.scheduling.annotation.Scheduled;
+import org.springframework.stereotype.Component;
 
 import javax.net.ssl.HttpsURLConnection;
-import java.io.BufferedReader;
-import java.io.InputStream;
-import java.io.InputStreamReader;
-import java.io.OutputStream;
+import java.io.*;
 import java.net.URL;
 
-@SpringBootApplication
-@EnableAutoConfiguration
-@ComponentScan("com.chenxin")
-public class Application {
-    private static final String requestUrl = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx901c4e0403247428&secret=45e1b7e7065c8a9f15e6dc38e449cbd7";
-    public static void main(String args[]){
-        SpringApplication.run(Application.class,args);
-//        httpsRequest(requestUrl);
-    }
+@Component
+public class GetToken {
+    private final String requestUrl = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx901c4e0403247428&secret=chenxin520";
 
     //    @Scheduled(cron = "0/5 * * * * *")
-    public static JSONObject httpsRequest(String requestUrl) {
+    public static JSONObject httpsRequest(String requestUrl, String requestMethod, String outputStr) {
         JSONObject jsonObject = null;
         try {
 //            // 创建SSLContext对象，并使用我们指定的信任管理器初始化
@@ -43,15 +31,15 @@ public class Application {
             conn.setDoInput(true);
             conn.setUseCaches(false);
             // 设置请求方式（GET/POST）
-            conn.setRequestMethod("GET");
+            conn.setRequestMethod(requestMethod);
 
             // 当outputStr不为null时向输出流写数据
-//            if (null != outputStr) {
-//                OutputStream outputStream = conn.getOutputStream();
-//                // 注意编码格式
-//                outputStream.write(outputStr.getBytes("UTF-8"));
-//                outputStream.close();
-//            }
+            if (null != outputStr) {
+                OutputStream outputStream = conn.getOutputStream();
+                // 注意编码格式
+                outputStream.write(outputStr.getBytes("UTF-8"));
+                outputStream.close();
+            }
 
             // 从输入流读取返回内容
             InputStream inputStream = conn.getInputStream();
@@ -75,4 +63,5 @@ public class Application {
         }
         return jsonObject;
     }
+
 }
