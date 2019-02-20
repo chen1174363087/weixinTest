@@ -1,5 +1,6 @@
 package com.chenxin.controller;
 
+import com.alibaba.fastjson.JSONObject;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -7,8 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
-import java.io.PrintWriter;
+import java.io.*;
 import java.security.MessageDigest;
 import java.util.Arrays;
 
@@ -26,6 +26,12 @@ public class TestWeiXinToken {
         return signature;
     }
 
+    /**
+     * 接通微信服务器
+     *
+     * @param request
+     * @param response
+     */
     @RequestMapping(value = "/confirm1", method = RequestMethod.GET)
     public void confirm(HttpServletRequest request, HttpServletResponse response) {
         System.out.println("sdsdf");
@@ -37,14 +43,26 @@ public class TestWeiXinToken {
         try {
             out = response.getWriter();
             if (checkSignature1(signature, timestamp, nonce)) {
-            //如果校验成功，将得到的随机字符串原路返回
+                //如果校验成功，将得到的随机字符串原路返回
                 out.print(echostr);
             }
         } catch (IOException e) {
             e.printStackTrace();
-        }finally {
+        } finally {
             out.close();
         }
+    }
+
+    /**
+     * 被动回复消息
+     *
+     * @param request
+     * @param response
+     */
+    @RequestMapping(value = "/confirm", method = RequestMethod.POST)
+    public String replyMessage(HttpServletRequest request, HttpServletResponse response) {
+        String requestMessage = JSONObject.toJSONString(request.getParameterMap());
+        return  requestMessage;
     }
 
     public final String tooken = "chenxin520"; //开发者自行定义Tooken
@@ -85,7 +103,7 @@ public class TestWeiXinToken {
             }
             return new String(buf);
         } catch (Exception e) {
-// TODO: handle exception
+            // TODO: handle exception
             return null;
         }
     }
