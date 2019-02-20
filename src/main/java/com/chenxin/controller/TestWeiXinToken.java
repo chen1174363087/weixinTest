@@ -1,6 +1,7 @@
 package com.chenxin.controller;
 
 import com.alibaba.fastjson.JSONObject;
+import org.apache.log4j.Logger;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -14,8 +15,10 @@ import java.util.Arrays;
 
 @RestController
 public class TestWeiXinToken {
+    Logger logger = Logger.getLogger(TestWeiXinToken.class);
     @RequestMapping("/test")
     public String confirm() {
+        logger.info("test+++++++++++++++++++++++++++++++++++");
         return "signature";
     }
 
@@ -61,7 +64,9 @@ public class TestWeiXinToken {
      */
     @RequestMapping(value = "/confirm1", method = RequestMethod.POST)
     public String replyMessage(HttpServletRequest request, HttpServletResponse response) {
+        logger.info("==被动回复消息start==");
         String requestMessage = JSONObject.toJSONString(request.getParameterMap());
+        logger.info("==被动回复消息end==");
         return  requestMessage;
     }
 
