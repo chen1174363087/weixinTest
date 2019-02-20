@@ -59,7 +59,7 @@ public class TestWeiXinToken {
      * @param request
      * @param response
      */
-    @RequestMapping(value = "/confirm", method = RequestMethod.POST)
+    @RequestMapping(value = "/confirm1", method = RequestMethod.POST)
     public String replyMessage(HttpServletRequest request, HttpServletResponse response) {
         String requestMessage = JSONObject.toJSONString(request.getParameterMap());
         return  requestMessage;
