@@ -74,7 +74,7 @@ public class TestWeiXinToken {
 
     @RequestMapping(value = "/toMsg",method = RequestMethod.POST,produces = {"application/xml; charset=UTF-8"})
     public void toMsg(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        log.info("微信返回了--------Weichart_Return");
+        System.out.println("微信返回了--------Weichart_Return");
         String resXml="";
         InputStream inputStream ;
         StringBuffer sb = new StringBuffer();
@@ -86,7 +86,7 @@ public class TestWeiXinToken {
         }
         in.close();
         inputStream.close();
-        log.info("微信返回了的数据--------");
+        System.out.println("微信返回了的数据--------");
         try {
             Map<String, Object> map = JSONObject.parseObject(sb.toString());
             String toUserName = map.get("ToUserName").toString();//开发者微信号
@@ -95,7 +95,7 @@ public class TestWeiXinToken {
             String msgType = map.get("MsgType").toString();//消息类型
             String content = map.get("Content").toString();//消息内容
             String msgId = map.get("MsgId").toString();//消息id，64位整型
-            log.info("接收到的消息：\r\n"+"ToUserName="+toUserName+"\r\nFromUserName="+fromUserName+"\r\nCreateTime="+
+            System.out.println("接收到的消息：\r\n"+"ToUserName="+toUserName+"\r\nFromUserName="+fromUserName+"\r\nCreateTime="+
                     createTime+"\r\nMsgType="+msgType+"\r\nContent="+content+"\r\nMsgId="+msgId);
             String resXmlStr="<xml><ToUserName><![CDATA["+fromUserName+"]]></ToUserName>" +//此处要填写 发送方帐号（一个OpenID）
                     "<FromUserName><![CDATA["+toUserName+"]]></FromUserName>" +//此处填写开发者微信号
