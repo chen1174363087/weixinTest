@@ -1,7 +1,6 @@
 package com.chenxin.controller;
 
 import com.alibaba.fastjson.JSONObject;
-import com.sun.javaws.jnl.XMLUtils;
 import org.apache.log4j.Logger;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
