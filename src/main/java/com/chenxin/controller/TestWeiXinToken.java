@@ -37,7 +37,7 @@ public class TestWeiXinToken {
      * @param request
      * @param response
      */
-    @RequestMapping(value = "/confirm1", method = RequestMethod.GET)
+    @RequestMapping(value = "/toMsg", method = RequestMethod.GET)
     public void confirm(HttpServletRequest request, HttpServletResponse response) {
         System.out.println("sdsdf");
         String signature = request.getParameter("signature");
@@ -72,7 +72,7 @@ public class TestWeiXinToken {
         return  requestMessage;
     }
 
-    @RequestMapping(value = "toMsg",method = RequestMethod.POST,produces = {"application/xml; charset=UTF-8"})
+    @RequestMapping(value = "/toMsg",method = RequestMethod.POST,produces = {"application/xml; charset=UTF-8"})
     public void toMsg(HttpServletRequest request, HttpServletResponse response) throws IOException {
         log.info("微信返回了--------Weichart_Return");
         String resXml="";
