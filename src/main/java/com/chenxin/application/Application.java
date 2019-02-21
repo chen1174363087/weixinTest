@@ -1,7 +1,7 @@
 package com.chenxin.application;
 
 import com.alibaba.fastjson.JSONObject;
-import com.sun.org.apache.bcel.internal.generic.GETFIELD;
+import org.apache.log4j.BasicConfigurator;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

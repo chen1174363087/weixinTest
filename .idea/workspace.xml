@@ -2,8 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8432de11-4ba2-4322-acde-f8f65b99004f" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/logs/client" afterPath="$PROJECT_DIR$/logs/client" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" />
+      <change beforePath="$PROJECT_DIR$/logs/client" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenxin/application/Application.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenxin/application/Application.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenxin/controller/TestWeiXinToken.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenxin/controller/TestWeiXinToken.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/Log4j.properties" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Log4j.properties" afterPath="$PROJECT_DIR$/target/classes/Log4j.properties" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/chenxin/controller/TestWeiXinToken.class" afterPath="$PROJECT_DIR$/target/classes/com/chenxin/controller/TestWeiXinToken.class" />
+      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT.war" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT.war.original" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/classes/application.properties" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/classes/com/chenxin/application/Application.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/classes/com/chenxin/application/ServletInitializer.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/classes/com/chenxin/controller/CreateMenu.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/classes/com/chenxin/controller/GetToken.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/classes/com/chenxin/controller/TestWeiXinToken.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.3.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.37.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-5.3.6.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.8.10.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.8.10.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.1.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/log4j-over-slf4j-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.1.11.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/logback-core-1.1.11.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/snakeyaml-1.17.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.13.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.13.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-1.5.9.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-1.5.9.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-1.5.9.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-1.5.9.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-tomcat-1.5.9.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-1.5.9.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.13.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.13.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.13.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.13.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.13.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/tomcat-annotations-api-8.5.23.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-8.5.23.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-8.5.23.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-websocket-8.5.23.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,13 +63,15 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="MP_verify_mVqU5DCGbDMBxQc6.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/MP_verify_mVqU5DCGbDMBxQc6.txt">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="439">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding>
+                <marker date="1550731528972" expanded="true" signature="1762:1784" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -28,19 +79,11 @@
       <file leaf-file-name="Application.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chenxin/application/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-877">
-              <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2263">
-              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="262">
+              <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -48,8 +91,18 @@
       <file leaf-file-name="Log4j.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/Log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="8" column="71" lean-forward="false" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+            <state relative-caret-position="275">
+              <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="60" lean-forward="false" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -58,9 +111,13 @@
       <file leaf-file-name="TestWeiXinToken.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chenxin/controller/TestWeiXinToken.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="68" column="32" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
-              <folding />
+            <state relative-caret-position="196">
+              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+                <element signature="e#634#635#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -69,71 +126,18 @@
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+              <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="client" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/logs/client">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoggingApplicationListener.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.9.RELEASE/spring-boot-1.5.9.RELEASE.jar!/org/springframework/boot/logging/LoggingApplicationListener.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="699">
-              <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
-              <folding>
-                <marker date="1544067146619" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1544067146619" expanded="false" signature="156:1462" ph="..." />
-                <marker date="1544067146619" expanded="true" signature="1771:1789" ph="/**...*/" />
-                <marker date="1544067146619" expanded="true" signature="1873:1891" ph="/**...*/" />
-                <marker date="1544067146619" expanded="true" signature="3062:3069" ph="{}" />
-                <marker date="1544067146619" expanded="true" signature="3139:3227" ph="{...}" />
-                <marker date="1544067146619" expanded="false" signature="3287:3298" ph=" { " />
-                <marker date="1544067146619" expanded="false" signature="3353:3359" ph=" }" />
-                <marker date="1544067146619" expanded="true" signature="3438:3827" ph="{...}" />
-                <marker date="1544067146619" expanded="true" signature="3888:4639" ph="{...}" />
-                <marker date="1544067146619" expanded="true" signature="4717:4866" ph="{...}" />
-                <marker date="1544067146619" expanded="true" signature="4966:5221" ph="{...}" />
-                <marker date="1544067146619" expanded="true" signature="5299:5577" ph="{...}" />
-                <marker date="1544067146619" expanded="true" signature="5619:5721" ph="{...}" />
-                <marker date="1544067146619" expanded="true" signature="5767:5869" ph="{...}" />
-                <marker date="1544067146619" expanded="true" signature="5963:6454" ph="{...}" />
-                <marker date="1544067146619" expanded="true" signature="6538:6867" ph="{...}" />
-                <marker date="1544067146619" expanded="true" signature="6949:7070" ph="{...}" />
-                <marker date="1544067146619" expanded="true" signature="7182:7963" ph="{...}" />
-                <marker date="1544067146619" expanded="true" signature="8019:8106" ph="{...}" />
-                <marker date="1544067146619" expanded="true" signature="8213:8394" ph="{...}" />
-                <marker date="1544067146619" expanded="true" signature="8472:8791" ph="{...}" />
-                <marker date="1544067146619" expanded="true" signature="8872:9733" ph="{...}" />
-                <marker date="1544067146619" expanded="true" signature="9838:10123" ph="{...}" />
-                <marker date="1544067146619" expanded="true" signature="10175:10285" ph="{...}" />
-                <marker date="1544067146619" expanded="true" signature="10390:10861" ph="{...}" />
-                <marker date="1544067146619" expanded="false" signature="10913:10924" ph=" { " />
-                <marker date="1544067146619" expanded="false" signature="10975:10981" ph=" }" />
-                <marker date="1544067146619" expanded="false" signature="11018:11029" ph=" { " />
-                <marker date="1544067146619" expanded="false" signature="11048:11054" ph=" }" />
-                <marker date="1544067146619" expanded="false" signature="11081:11092" ph=" { " />
-                <marker date="1544067146619" expanded="false" signature="11110:11116" ph=" }" />
-                <marker date="1544067146619" expanded="false" signature="11182:11193" ph=" { " />
-                <marker date="1544067146619" expanded="false" signature="11236:11242" ph=" }" />
-                <marker date="1544067146619" expanded="false" signature="11291:11302" ph=" { " />
-                <marker date="1544067146619" expanded="false" signature="11329:11335" ph=" }" />
-                <marker date="1544067146619" expanded="true" signature="11348:12136" ph="{...}" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>sys:log.level.console</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -147,11 +151,13 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenxin/controller/TestWeiXinToken.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j2.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/Log4j.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chenxin/controller/TestWeiXinToken.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenxin/application/Application.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.xml" />
       </list>
     </option>
   </component>
@@ -160,6 +166,13 @@
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
@@ -189,8 +202,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -202,13 +213,26 @@
             <path>
               <item name="weixinTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="weixinTest" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixinTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixinTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixinTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixinTest" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -220,6 +244,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\weixinTest\src\main\resources" />
+      <recent name="D:\weixinTest\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -354,48 +379,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1550638770639</updated>
-      <workItem from="1550638772810" duration="5542000" />
+      <workItem from="1550638772810" duration="7138000" />
+      <workItem from="1550710771555" duration="12089000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5542000" />
+    <option name="totallyTimeSpent" value="19227000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5021322" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25436682" sideWeight="0.5053305" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32995737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3875546" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.48253274" sideWeight="0.4946695" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969433" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Hybris Console [Experimental]" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5447598" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19083156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.49626866" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hybris Console [Experimental]" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -418,9 +443,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenxin/application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding>
+            <marker date="1550731528972" expanded="true" signature="1762:1784" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="71" lean-forward="false" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenxin/controller/TestWeiXinToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1425">
+          <caret line="68" column="32" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.9.RELEASE/spring-boot-1.5.9.RELEASE.jar!/org/springframework/boot/logging/LoggingApplicationListener.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="699">
+        <state relative-caret-position="3800">
           <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
           <folding>
             <marker date="1544067146619" expanded="false" signature="0:104" ph="/.../" />
@@ -464,59 +529,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2263">
-          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenxin/application/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-877">
-          <caret line="23" column="35" lean-forward="false" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenxin/controller/TestWeiXinToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="68" column="32" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/Log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="71" lean-forward="false" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+          <caret line="3" column="1" lean-forward="false" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/MP_verify_mVqU5DCGbDMBxQc6.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.5.9.RELEASE/spring-boot-1.5.9.RELEASE.jar!/org/springframework/boot/logging/LoggingApplicationListener.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3800">
+          <caret line="181" column="0" lean-forward="false" selection-start-line="181" selection-start-column="0" selection-end-line="181" selection-end-column="0" />
+          <folding>
+            <marker date="1544067146619" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1544067146619" expanded="false" signature="156:1462" ph="..." />
+            <marker date="1544067146619" expanded="true" signature="1771:1789" ph="/**...*/" />
+            <marker date="1544067146619" expanded="true" signature="1873:1891" ph="/**...*/" />
+            <marker date="1544067146619" expanded="true" signature="3062:3069" ph="{}" />
+            <marker date="1544067146619" expanded="true" signature="3139:3227" ph="{...}" />
+            <marker date="1544067146619" expanded="false" signature="3287:3298" ph=" { " />
+            <marker date="1544067146619" expanded="false" signature="3353:3359" ph=" }" />
+            <marker date="1544067146619" expanded="true" signature="3438:3827" ph="{...}" />
+            <marker date="1544067146619" expanded="true" signature="3888:4639" ph="{...}" />
+            <marker date="1544067146619" expanded="true" signature="4717:4866" ph="{...}" />
+            <marker date="1544067146619" expanded="true" signature="4966:5221" ph="{...}" />
+            <marker date="1544067146619" expanded="true" signature="5299:5577" ph="{...}" />
+            <marker date="1544067146619" expanded="true" signature="5619:5721" ph="{...}" />
+            <marker date="1544067146619" expanded="true" signature="5767:5869" ph="{...}" />
+            <marker date="1544067146619" expanded="true" signature="5963:6454" ph="{...}" />
+            <marker date="1544067146619" expanded="true" signature="6538:6867" ph="{...}" />
+            <marker date="1544067146619" expanded="true" signature="6949:7070" ph="{...}" />
+            <marker date="1544067146619" expanded="true" signature="7182:7963" ph="{...}" />
+            <marker date="1544067146619" expanded="true" signature="8019:8106" ph="{...}" />
+            <marker date="1544067146619" expanded="true" signature="8213:8394" ph="{...}" />
+            <marker date="1544067146619" expanded="true" signature="8472:8791" ph="{...}" />
+            <marker date="1544067146619" expanded="true" signature="8872:9733" ph="{...}" />
+            <marker date="1544067146619" expanded="true" signature="9838:10123" ph="{...}" />
+            <marker date="1544067146619" expanded="true" signature="10175:10285" ph="{...}" />
+            <marker date="1544067146619" expanded="true" signature="10390:10861" ph="{...}" />
+            <marker date="1544067146619" expanded="false" signature="10913:10924" ph=" { " />
+            <marker date="1544067146619" expanded="false" signature="10975:10981" ph=" }" />
+            <marker date="1544067146619" expanded="false" signature="11018:11029" ph=" { " />
+            <marker date="1544067146619" expanded="false" signature="11048:11054" ph=" }" />
+            <marker date="1544067146619" expanded="false" signature="11081:11092" ph=" { " />
+            <marker date="1544067146619" expanded="false" signature="11110:11116" ph=" }" />
+            <marker date="1544067146619" expanded="false" signature="11182:11193" ph=" { " />
+            <marker date="1544067146619" expanded="false" signature="11236:11242" ph=" }" />
+            <marker date="1544067146619" expanded="false" signature="11291:11302" ph=" { " />
+            <marker date="1544067146619" expanded="false" signature="11329:11335" ph=" }" />
+            <marker date="1544067146619" expanded="true" signature="11348:12136" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -524,6 +595,134 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/logfile.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-56">
+          <caret line="2109" column="0" lean-forward="false" selection-start-line="2109" selection-start-column="0" selection-end-line="2109" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/weixinTest.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/Log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="64" lean-forward="false" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/BasicConfigurator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/weixinTest.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1050">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <marker date="1550731528972" expanded="true" signature="1762:1784" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenxin/controller/TestWeiXinToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/test.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenxin/application/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="22" column="54" lean-forward="false" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="34" lean-forward="false" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163">
+          <caret line="29" column="49" lean-forward="false" selection-start-line="29" selection-start-column="49" selection-end-line="29" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-895">
+          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="46" lean-forward="false" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="62" lean-forward="false" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="60" lean-forward="false" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
           <folding />
         </state>
       </provider>

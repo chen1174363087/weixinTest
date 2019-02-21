@@ -1,5 +1,5 @@
-com\chenxin\controller\CreateMenu.class
-com\chenxin\controller\TestWeiXinToken.class
 com\chenxin\application\Application.class
 com\chenxin\application\ServletInitializer.class
+com\chenxin\controller\CreateMenu.class
+com\chenxin\controller\TestWeiXinToken.class
 com\chenxin\controller\GetToken.class
