@@ -2,6 +2,7 @@ package com.chenxin.application;
 
 import com.alibaba.fastjson.JSONObject;
 import org.apache.log4j.BasicConfigurator;
+import org.apache.log4j.Logger;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -11,16 +12,17 @@ import javax.net.ssl.HttpsURLConnection;
 import java.io.BufferedReader;
 import java.io.InputStream;
 import java.io.InputStreamReader;
-import java.io.OutputStream;
 import java.net.URL;
 
 @SpringBootApplication
 @EnableAutoConfiguration
 @ComponentScan("com.chenxin")
 public class Application {
+    static Logger logger = Logger.getLogger(Application.class);
     private static final String requestUrl = "https://api.weixin.qq.com/cgi-bin/token?grant_type=client_credential&appid=wx901c4e0403247428&secret=45e1b7e7065c8a9f15e6dc38e449cbd7";
     public static void main(String args[]){
         SpringApplication.run(Application.class,args);
+        logger.info("=======");
 //        httpsRequest(requestUrl);
     }
 

@@ -74,7 +74,7 @@ public class TestWeiXinToken {
 
     @RequestMapping(value = "/toMsg",method = RequestMethod.POST,produces = {"application/xml; charset=UTF-8"})
     public void toMsg(HttpServletRequest request, HttpServletResponse response) throws IOException {
-        System.out.println("微信返回了--------Weichart_Return");
+        log.info("微信返回了--------Weichart_Return");
         String resXml="";
         InputStream inputStream ;
         StringBuffer sb = new StringBuffer();
@@ -86,7 +86,7 @@ public class TestWeiXinToken {
         }
         in.close();
         inputStream.close();
-        System.out.println("微信返回了的数据--------");
+        log.info("微信返回了的数据--------");
         try {
             Map<String, Object> map = JSONObject.parseObject(sb.toString());
             String toUserName = map.get("ToUserName").toString();//开发者微信号
