@@ -1,6 +1,8 @@
 package com.chenxin.controller;
 
 import com.alibaba.fastjson.JSONObject;
+import com.sun.javaws.jnl.XMLUtils;
+import org.apache.log4j.Logger;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -11,9 +13,13 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.*;
 import java.security.MessageDigest;
 import java.util.Arrays;
+import java.util.Map;
 
 @RestController
 public class TestWeiXinToken {
+
+    Logger log = Logger.getLogger(TestWeiXinToken.class);
+
     @RequestMapping("/test")
     public String confirm() {
         return "signature";
@@ -65,6 +71,43 @@ public class TestWeiXinToken {
         String requestMessage = JSONObject.toJSONString(request.getParameterMap());
 
         return  requestMessage;
+    }
+
+    @RequestMapping(value = "toMsg",method = RequestMethod.POST,produces = {"application/xml; charset=UTF-8"})
+    public void toMsg(HttpServletRequest request, HttpServletResponse response) throws IOException {
+        log.info("微信返回了--------Weichart_Return");
+        String resXml="";
+        InputStream inputStream ;
+        StringBuffer sb = new StringBuffer();
+        inputStream = request.getInputStream();
+        String reqXmlStr;
+        BufferedReader in = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));
+        while ((reqXmlStr = in.readLine()) != null){
+            sb.append(reqXmlStr);
+        }
+        in.close();
+        inputStream.close();
+        log.info("微信返回了的数据--------");
+        try {
+            Map<String, Object> map = JSONObject.parseObject(sb.toString());
+            String toUserName = map.get("ToUserName").toString();//开发者微信号
+            String fromUserName = map.get("FromUserName").toString();//发送方帐号（一个OpenID）
+            String createTime = map.get("CreateTime").toString();//消息创建时间 （整型）
+            String msgType = map.get("MsgType").toString();//消息类型
+            String content = map.get("Content").toString();//消息内容
+            String msgId = map.get("MsgId").toString();//消息id，64位整型
+            log.info("接收到的消息：\r\n"+"ToUserName="+toUserName+"\r\nFromUserName="+fromUserName+"\r\nCreateTime="+
+                    createTime+"\r\nMsgType="+msgType+"\r\nContent="+content+"\r\nMsgId="+msgId);
+            String resXmlStr="<xml><ToUserName><![CDATA["+fromUserName+"]]></ToUserName>" +//此处要填写 发送方帐号（一个OpenID）
+                    "<FromUserName><![CDATA["+toUserName+"]]></FromUserName>" +//此处填写开发者微信号
+                    "<CreateTime>"+createTime+"</CreateTime>" +
+                    "<MsgType><![CDATA["+msgType+"]]></MsgType>"+
+                    "<Content><![CDATA["+content+"]]></Content></xml>";
+            log.info(resXmlStr);
+            response.getWriter().print(resXmlStr);
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public final String tooken = "chenxin520"; //开发者自行定义Tooken

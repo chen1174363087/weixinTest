@@ -2,57 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8432de11-4ba2-4322-acde-f8f65b99004f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/log4j.xml" />
-      <change beforePath="$PROJECT_DIR$/logs/client" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/chenxin/application/Application.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenxin/application/Application.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/chenxin/controller/TestWeiXinToken.java" afterPath="$PROJECT_DIR$/src/main/java/com/chenxin/controller/TestWeiXinToken.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/Log4j.properties" afterPath="$PROJECT_DIR$/src/main/resources/Log4j.properties" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Log4j.properties" afterPath="$PROJECT_DIR$/target/classes/Log4j.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" afterPath="$PROJECT_DIR$/target/classes/application.properties" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/chenxin/controller/TestWeiXinToken.class" afterPath="$PROJECT_DIR$/target/classes/com/chenxin/controller/TestWeiXinToken.class" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT.war" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT.war.original" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/classes/application.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/classes/com/chenxin/application/Application.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/classes/com/chenxin/application/ServletInitializer.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/classes/com/chenxin/controller/CreateMenu.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/classes/com/chenxin/controller/GetToken.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/classes/com/chenxin/controller/TestWeiXinToken.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.3.4.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.37.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-5.3.6.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.8.0.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.8.10.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.8.10.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.1.Final.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/jcl-over-slf4j-1.7.25.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/log4j-over-slf4j-1.7.25.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.1.11.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/logback-core-1.1.11.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.25.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/snakeyaml-1.17.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-4.3.13.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-4.3.13.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-1.5.9.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-1.5.9.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-1.5.9.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-1.5.9.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-tomcat-1.5.9.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-1.5.9.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-context-4.3.13.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-core-4.3.13.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-4.3.13.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-web-4.3.13.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-4.3.13.RELEASE.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/tomcat-annotations-api-8.5.23.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-8.5.23.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-8.5.23.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-websocket-8.5.23.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/weixinTest-1.0-SNAPSHOT/WEB-INF/lib/validation-api-1.1.0.Final.jar" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -67,11 +17,9 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-              <folding>
-                <marker date="1550731528972" expanded="true" signature="1762:1784" ph="..." />
-              </folding>
+            <state relative-caret-position="162">
+              <caret line="152" column="28" lean-forward="false" selection-start-line="152" selection-start-column="28" selection-end-line="152" selection-end-column="28" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -98,7 +46,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log4j.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="log4j.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="350">
@@ -108,15 +56,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestWeiXinToken.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ServletInitializer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/chenxin/application/ServletInitializer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestWeiXinToken.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/chenxin/controller/TestWeiXinToken.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+            <state relative-caret-position="262">
+              <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#600#601#0" expanded="true" />
-                <element signature="e#634#635#0" expanded="true" />
+                <element signature="e#750#751#0" expanded="true" />
+                <element signature="e#784#785#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -150,14 +108,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/chenxin/controller/TestWeiXinToken.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/Log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/chenxin/application/Application.java" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/chenxin/controller/TestWeiXinToken.java" />
       </list>
     </option>
   </component>
@@ -220,6 +178,29 @@
               <item name="weixinTest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixinTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixinTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixinTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixinTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="weixinTest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="weixinTest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="weixinTest" type="b2602c69:ProjectViewProjectNode" />
@@ -380,15 +361,16 @@
       <option name="presentableId" value="Default" />
       <updated>1550638770639</updated>
       <workItem from="1550638772810" duration="7138000" />
-      <workItem from="1550710771555" duration="12089000" />
+      <workItem from="1550710771555" duration="13548000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19227000" />
+    <option name="totallyTimeSpent" value="20686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25436682" sideWeight="0.5053305" order="7" side_tool="true" content_ui="tabs" />
@@ -410,7 +392,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5447598" sideWeight="0.4978678" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32969433" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19083156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19083156" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32969433" sideWeight="0.49626866" order="1" side_tool="false" content_ui="tabs" />
@@ -457,9 +439,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1225">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <marker date="1550731528972" expanded="true" signature="1762:1784" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -477,8 +457,8 @@
           <caret line="68" column="32" lean-forward="false" selection-start-line="68" selection-start-column="32" selection-end-line="68" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -639,28 +619,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding>
-            <marker date="1550731528972" expanded="true" signature="1762:1784" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenxin/controller/TestWeiXinToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-            <element signature="e#634#635#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/log/test.log">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -724,6 +682,34 @@
         <state relative-caret-position="350">
           <caret line="14" column="60" lean-forward="false" selection-start-line="14" selection-start-column="60" selection-end-line="14" selection-end-column="60" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenxin/application/ServletInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="152" column="28" lean-forward="false" selection-start-line="152" selection-start-column="28" selection-end-line="152" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/chenxin/controller/TestWeiXinToken.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="262">
+          <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
+            <element signature="e#784#785#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
