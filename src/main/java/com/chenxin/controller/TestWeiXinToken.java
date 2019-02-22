@@ -28,7 +28,8 @@ public class TestWeiXinToken {
                 arr[i] = i;
             }
         } catch (Exception e) {
-            log.error(e.getMessage());
+            e.printStackTrace();
+            log.error(e);
         }
         return "signature";
     }
