@@ -12,8 +12,8 @@
 
 	<appender name="daily" class="org.apache.log4j.DailyRollingFileAppender">
 		<!--日志输出到服务器logs/weixinTest.log-->
-		<!--<param name="File" value="../logs/weixinTest.log" />-->
-		<param name="File" value="/usr/local/share/applications/download/logs/weixinTest.log" />
+		<param name="File" value="../logs/weixinTest.log" />
+		<!--<param name="File" value="/usr/local/share/applications/download/logs/weixinTest.log" />-->
 		<param name="Append" value="true" />
 		<param name="DatePattern" value="'.'yyyy-MM-dd'.log'" />
 		<layout class="org.apache.log4j.PatternLayout">
@@ -28,8 +28,8 @@
 
 	<appender name="file" class="org.apache.log4j.RollingFileAppender">
 		<!--日志输出到服务器logs/weixinTest.log-->
-		<!--<param name="File" value="../logs/weixinTest.log" />-->
-		<param name="File" value="/usr/local/share/applications/download/logs/weixinTest1.log" />
+		<param name="File" value="../logs/weixinTest.log" />
+		<!--<param name="File" value="/usr/local/share/applications/download/logs/weixinTest1.log" />-->
 		<param name="Append" value="true" />
 		<param name="MaxFileSize" value="20MB"/>
 		<layout class="org.apache.log4j.PatternLayout">
