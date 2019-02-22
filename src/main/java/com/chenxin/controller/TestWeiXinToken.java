@@ -22,6 +22,14 @@ public class TestWeiXinToken {
 
     @RequestMapping("/test")
     public String confirm() {
+        int[] arr = new int[3];
+        try {
+            for (int i = 0; i <= 3; i++) {
+                arr[i] = i;
+            }
+        } catch (Exception e) {
+            log.error(e.getMessage());
+        }
         return "signature";
     }
 

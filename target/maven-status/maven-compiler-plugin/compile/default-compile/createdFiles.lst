@@ -1,0 +1,14 @@
+com\chenxin\utils\MessageType.class
+com\chenxin\application\Application.class
+com\chenxin\application\ServletInitializer.class
+com\chenxin\utils\MessageHandler.class
+com\chenxin\utils\VoiceMessage.class
+com\chenxin\utils\TextMessage.class
+com\chenxin\utils\PictureMessage.class
+com\chenxin\controller\CreateMenu.class
+com\chenxin\utils\NewsItem.class
+com\chenxin\utils\MessageHandler$1.class
+com\chenxin\utils\GeneralMessage.class
+com\chenxin\utils\MusicMessage.class
+com\chenxin\controller\TestWeiXinToken.class
+com\chenxin\controller\GetToken.class
