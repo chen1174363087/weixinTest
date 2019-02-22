@@ -105,7 +105,8 @@ public class TestWeiXinToken {
             log.error(resXmlStr);
             response.getWriter().print(resXmlStr);
         } catch (Exception e) {
-            e.printStackTrace();
+           log.error("read message wrong");
+           log.error(e.getMessage());
         }
     }
 
